@@ -11,13 +11,13 @@ from streamlit_option_menu import option_menu
 
 # Loading the saved models
 
-diabetes_model = pickle.load(open('C:/Users/Varsha Varma/Downloads/Tech Mahindra/Multiple Disease Prediction System/saved models/diabetes_model.sav','rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav','rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/Varsha Varma/Downloads/Tech Mahindra/Multiple Disease Prediction System/saved models/heart_disease_model.sav','rb'))
+heart_disease_model = pickle.load(open('heart_disease_model.sav','rb'))
 
-parkinsons_model = pickle.load(open('C:/Users/Varsha Varma/Downloads/Tech Mahindra/Multiple Disease Prediction System/saved models/parkinsons_model.sav','rb'))
+parkinsons_model = pickle.load(open('parkinsons_model.sav','rb'))
 
-breast_cancer_model = pickle.load(open('C:/Users/Varsha Varma/Downloads/Tech Mahindra/Multiple Disease Prediction System/saved models/breast_cancer_model.sav','rb'))
+breast_cancer_model = pickle.load(open('breast_cancer_model.sav','rb'))
 
 # side-bar for navigation
 

@@ -1,0 +1,2 @@
+# Multiple Disease Prediction System using ML
+### Build a Multiple Disease Prediction System using Machine Learning. The system should be able to predict the presence of four diseases: diabetes, heart disease, Parkinson's disease, and breast cancer. Additionally, develop a web application using the Streamlit library in Python, where users can input specific attributes or values for each disease and obtain the corresponding prediction.
